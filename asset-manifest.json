@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/comptext/static/css/main.ad90883c.css",
+    "main.js": "/comptext/static/js/main.5fe51afe.js",
+    "index.html": "/comptext/index.html",
+    "main.ad90883c.css.map": "/comptext/static/css/main.ad90883c.css.map",
+    "main.5fe51afe.js.map": "/comptext/static/js/main.5fe51afe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad90883c.css",
+    "static/js/main.5fe51afe.js"
+  ]
+}
