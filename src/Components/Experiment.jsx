@@ -26,7 +26,7 @@ const Experiment = (props) => {
 	const navigate = useNavigate();
 
 
-	const imagePath =  "../../" + exampleJSON["image_path"]
+	const imagePath =   exampleJSON["image_path"]
 	const descriptions = exampleJSON["descriptions"];
 
 	const [activeDescription, setActiveDescription] = useState("Descriptive");
@@ -35,13 +35,19 @@ const Experiment = (props) => {
 		setActiveDescription(event.target.value);
 	};
 
+	const falseDescription = "Please 1) describe what you see in the graph and 2) list out what questions would you be able to answer from this graph."
+
+	const trueDescription = "Please list out what questions would you be able to answer from this graph. After playing with the system and generating descriptions, what questions would you be able to answer from this visualization and descriptions? How salient / diverse / statistically informative is the description?"
+
 	return (
 		<div>
 			<p
 				style={{
 					color: "gray"
 				}}
-			>Short description about the user task Short description about the user task Short description about the user task Short description about the user task</p>
+			>
+				{wtext === "true" ? trueDescription : falseDescription}
+			</p>
 			<img src={imagePath} alt="Experiment Image" width="800" />
 			
 

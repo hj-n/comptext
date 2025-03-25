@@ -106,7 +106,7 @@ function Demo() {
 						familarity === "" 
 					}
 					onClick={() => {
-					
+						
 
 						navigate("/exp/1/false");
 					}}

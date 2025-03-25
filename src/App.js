@@ -2,7 +2,7 @@ import './App.css';
 import Experiment from './Components/Experiment';
 import Intro from './Components/Intro';
 import Demo from './Components/Demo';
-import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Routes, HashRouter as Router } from 'react-router-dom';
 
 import charts from "./final_json/12charts.json";
 import Thank from './Components/Thanks';
